@@ -6,7 +6,7 @@ Citizen.CreateThread(function()
 		if not car then
 			speed = GetEntitySpeed(GetPlayerPed(-1))
 			if speed > 0.0 then
-				TriggerEvent("ee:onPlayerMoving", speed)
+				TriggerEvent("ee:onPlayerMove", speed)
 			end
 		end
 	end

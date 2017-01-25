@@ -8,5 +8,6 @@ client_scripts
 	"player/spawn.lua",
 	"player/health.lua",
 	"player/model.lua",
-	"player/moving.lua",
+	"player/move.lua",
+	"player/wanted.lua",
 }
